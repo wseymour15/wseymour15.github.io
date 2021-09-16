@@ -51,6 +51,8 @@ table {
 	border-spacing: 0;
 }
 
+
+
 body {
 	-webkit-text-size-adjust: none;
 }
@@ -239,6 +241,10 @@ input, select, textarea {
 
 	.align-right {
 		text-align: right;
+	}
+
+	.sendMessage {
+		margin-top: 20px;
 	}
 
 /* Container */
