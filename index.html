@@ -9,6 +9,7 @@
 		<title>Walter Seymour</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="referrer" content="origin">
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body class="is-preload">
@@ -32,13 +33,19 @@
 							<h2>About Myself</h2>
 						</header>
 						<p>I was born and raised in Cedar Falls, Iowa. I was introduced to coding in high school participating in the tech team my
-                        mother taught. At Iowa State University, I realized how much of an impact programming has on society, and how it could change lives including my own. Ever since, I have had a passion for developing software. I will be a full-time developer at Cerner Corporation in Kansas City, Missouri once I graduate in May of 2019. Outside of programming, I am an avid Iowa State Cyclones and Green Bay Packers fan. I also love eating, music, camping, and finding new adventures with my friends.</p>
+                        mother taught. At Iowa State University, I realized how much of an impact programming has on society, and how it could change lives including my own. Ever since, I have had a passion for developing software. I have been a full-time developer at Cerner Corporation in Kansas City, Missouri since 2019. I have specifically been working on Cerner's implementation of HL7 FHIR. Outside of programming, I am an avid Iowa State Cyclones and Green Bay Packers fan. I also love eating, music, camping, and finding new adventures with my friends.</p>
 					</section>
 
 				<!-- Two -->
 					<section id="two">
 						<h2>Recent Work</h2>
 						<div class="row">
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="https://fhir.cerner.com/" class="image fit thumb"><img src="images/fhir.png" alt="" /></a>
+								<h3>Software Engineer - Cerner Corporation
+                                <br/> Kansas City, MO</h3>
+								<p>As a full-time developer at Cerner, I took part in the development and enhancement of Cerner's Implementation of the HL7 FHIR APIs. This technology allows third-party developers to access medical data through simple and standardized HTTP requests. Developing this product allowed me to gain experience with such technologies as Ruby, Ruby on Rails, Jenkins, Docker, Kubernetes, and others. Outside of development, I was a key factor in helping third-party developers learn how to use our product. Specifically, I was a major factor in ensuring that applications owned by the Department of Veteran's Affairs were able to access Cerner's medical data through our product.</p>
+							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="https://www.cerner.com/" class="image fit thumb"><img src="images/cerner.png" alt="" /></a>
 								<h3>Software Intern - Cerner Corporation
@@ -69,9 +76,9 @@
 								<p>No-Go is a Google Chrome Extension for productivity. In the extension, you can enter a URL, or a time period that will block the website during that period. We used html and JavaScript for the simple front end of the application and to communicate with our database. This gave me experience with the Chrome API and implementing third party API’s into my own projects. I worked with the Database management and some of the frontend.</p>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
-								<div class="image fit"><img src="images/checkers.jpg" alt="" /></div>
-								<h3>Checkers</h3>
-								<p>This is a web application just like a regular checkers game. We implemented the logic and the state of each game with PHP. We also used sockets so the game would be updated when the other player made a move. The focus of this simple application was implementing the rules of a checkers game so it would be accurate to a real checkers game. It also gave me some of my first experience with HTML and Javascript. The PHP used was also beneficial to my Database experience.</p>
+								<div class="image fit"><img src="images/tiles.png" alt="" /></div>
+								<h3>Unity First-Person Game</h3>
+								<p>In our free time, a friend and I atempted to make a small game using the Unity Game Engine. Although our falling tile game was never fully flushed out, we did create a functioning first person game, and learned a lot about 3D Graphical programming.</p>
 							</article>
 						</div>
 					</section>
@@ -85,18 +92,18 @@
 						<p>Thank you for looking at my website and taking interest in what I do. If you have any questions or concerns, please feel free to contact me at any time.</p>
 						<div class="row">
 							<div class="col-8 col-12-small">
-								<form action="https://formspree.io/walterjseymour@gmail.com" method="POST">
+								<form action="https://formspree.io/f/walterjseymour@gmail.com" method="POST">
 									<div class="row gtr-uniform gtr-50">
 										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
+										<div class="col-6 col-12-xsmall"><input type="email" name="_replyto" id="email" placeholder="Email" /></div>
 										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
                                         <input type="text" name="_gotcha" style="display:none" />
 									</div>
+									<ul class="actions" class="sendMessage">
+										<li><input type="submit" class='sendMessage' value="Send Message" onClick="$('.sendMessage').notify('Message Sent!', { elementPosition: 'right', autoHideDelay: 3000, className: 'success', })" />
+										</li>
+									</ul>
 								</form>
-								<ul class="actions" class="sendMessage">
-									<li><input type="submit" class='sendMessage' value="Send Message" onClick="$('.sendMessage').notify('Message Sent!', { elementPosition: 'right', autoHideDelay: 3000, className: 'success', })" />
-                                    </li>
-								</ul>
 							</div>
 							<div class="col-4 col-12-small">
 								<ul class="labeled-icons">
@@ -116,16 +123,6 @@
 								</ul>
 							</div>
 						</div>
-					</section>
-                
-                <!-- Four -->
-					<section id="four">
-						<h2>Other Documents</h2>
-                        <ul class="actions">
-							<li><a href="./docs/Seymour494Cumulative.pdf" class="button" download="SeymourResume">Reflection</a></li>
-                            <li><a href="./docs/SE494SeymourGenEds.pdf" class="button" download="SeymourResume">General Education</a></li>
-                            <li><a href="./docs/SeymourEthicsSE494.pdf" class="button" download="SeymourResume">Ethics</a></li>
-						</ul>
 					</section>
 
 				<!-- Four -->
